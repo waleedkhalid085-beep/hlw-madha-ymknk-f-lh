@@ -208,6 +208,18 @@
       "created_at": "2026-11-19T22:53:34.890Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "709d5b5d-b284-46cf-a018-8747f87f5ae3",
+      "role": "user",
+      "content": "العمل فقط على حقول جمبور الشمالي والجنوبي وبابا وباي حسن الشمالي والجنوبي وداود",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-19T22:54:22.263Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
