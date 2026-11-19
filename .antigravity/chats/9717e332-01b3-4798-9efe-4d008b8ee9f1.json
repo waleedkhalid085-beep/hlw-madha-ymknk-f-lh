@@ -244,6 +244,18 @@
       "created_at": "2026-11-19T22:59:48.023Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "300d989c-712a-4a1f-817e-41809d5d23da",
+      "role": "agent",
+      "content": "المشروع موجود وجاهز بالكامل في مكانين رئيسيين:\n\n---\n\n### 1. الموقع الحي والشغال (لتفتحه وتجربه وتستعرضه أمام مسؤولك):\nافتح هذا الرابط مباشرة من هاتفك أو المتصفح:\n👉 **[رابط فتح منصة COREX الحية](https://antigravity.luch.dev/site/3a026efd-8c9f-494f-891b-99415ea24a7f/2d83b86c06d4908135fb010f/)**\n\n* بمجرد فتحه، ستظهر لك واجهة الدخول الملكية.\n* اضغط على زر **\"الدخول التجريبي الفوري للمدير (Executive Fast Pass)\"** وسيدخلك مباشرة إلى لوحة القيادة التفاعلية.\n* ستجد داخلها محاكي شجرة الصمامات، ومصفوفة التدريب، وسندات الصرف، وجميع حقولكم الستة: **جمبور الشمالي، جمبور الجنوبي، قبة بابا، باي حسن الشمالي، باي حسن الجنوبي، وحقل داود**.\n\n---\n\n### 2. الكود المصدري الكامل لإطار عمل Laravel:\nتم إنشاء كافة ملفات المشروع في مساحة العمل وتستطيع استعراضها وتنزيلها:\n* **المتحكمات:** [`app/Http/Controllers/DashboardController.php`](file:///home/agent/workspace/app/Http/Controllers/DashboardController.php) و [`WellController.php`](file:///home/agent/workspace/app/Http/Controllers/WellController.php) و [`InventoryController.php`](file:///home/agent/workspace/app/Http/Controllers/InventoryController.php).\n* **قواعد البيانات:** [`database/migrations/2026_11_19_000001_create_corex_enterprise_tables.php`](file:///home/agent/workspace/database/migrations/2026_11_19_000001_create_corex_enterprise_tables.php) التي تحتوي على جداول الحقول والآبار والصمامات والمخازن.\n* **المسارات:** [`routes/web.php`](file:///home/agent/workspace/routes/web.php) و [`routes/api.php`](file:///home/agent/workspace/routes/api.php).\n* **ملف التعليمات والهيكلية:** [`README.md`](file:///home/agent/workspace/README.md).\n\n> 💡 **ملاحظة لنقل المشروع إلى GitHub:** إذا كنت ترغب في رفع كامل كود المشروع إلى حسابك على GitHub، اضغط على **علامة GitHub الموجودة في أعلى شاشة المحادثة** لربط المستودع، وسيتم نقل وتصدير كامل الكود والملفات إلى حسابك فوراً.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "d51e53a8-61a6-4b6e-9e6c-ec41b4c9e762",
+      "created_at": "2026-11-19T23:00:06.765Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
