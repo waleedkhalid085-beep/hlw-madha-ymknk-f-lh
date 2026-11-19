@@ -256,6 +256,18 @@
       "created_at": "2026-11-19T23:00:06.765Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "0dbae4e8-7096-4384-9bd3-2cee03182925",
+      "role": "user",
+      "content": "كيف يمكنني جعل التطبيق يعمل في موبايل او حاسبة اخرى",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-19T23:01:54.801Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
