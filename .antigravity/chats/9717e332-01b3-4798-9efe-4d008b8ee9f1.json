@@ -448,6 +448,18 @@
       "created_at": "2026-11-19T23:27:19.350Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "a0cf5257-e3aa-45a7-aa60-39e16c210093",
+      "role": "agent",
+      "content": "تم اختصار الرابط برابط احترافي ومخصص باسم النظام مباشرة:\n\n🔗 **الرابط المختصر:**\n👉 **[https://tinyurl.com/corex-system](https://tinyurl.com/corex-system)**\n\n---\n\n💡 **نصيحة إضافية للمعاينة كـ تطبيق رسمي بدون أي رابط نهائياً:**\nبمجرد فتح الرابط في الهاتف، اضغط على زر المشاركة ثم اختر **\"إضافة إلى الشاشة الرئيسية\" (Add to Home Screen)**:\n* سيظهر كأيقونة تطبيق رسمية على شاشة الهاتف.\n* عند فتحه، سيعمل بملء الشاشة **بدون شريط المتصفح وبدون ظهور أي عنوان ويب أو رابط إطلاقاً**، ليظهر وكأنه تطبيق مخصص ومبرمج بالكامل.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "7998745f-a56a-44bd-8e19-b090573937e0",
+      "created_at": "2026-11-19T23:28:03.815Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
