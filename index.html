@@ -654,11 +654,13 @@
                             <p class="text-xs text-slate-400 mt-1">مخطط تشريحي تفاعلي لصمامات رأس البئر (Wellhead Valves Integrity) مع سجل الجوازات الفنية</p>
                         </div>
                         <div class="flex items-center gap-2">
-                            <select id="wellSelector" onchange="changeActiveWell(this.value)" class="bg-[#081527] border border-gold-500/40 text-gold-300 text-xs rounded-xl px-3 py-2 outline-none">
-                                <option value="JAM-N-14">بئر JAM-N-14 (حقل جمبور الشمالي الشمالي)</option>
-                                <option value="BH-N-45">بئر BH-N-45 (حقل باي حسن الشمالي - مكمن مشرف)</option>
-                                <option value="BB-102">بئر BB-102 (حقل بابا)</option>
-                                <option value="DWD-07">بئر DWD-07 (حقل داود 1)</option>
+                                                        <select id="wellSelector" onchange="changeActiveWell(this.value)" class="bg-[#081527] border border-gold-500/40 text-gold-300 text-xs rounded-xl px-3 py-2 outline-none">
+                                <option value="JAM-N-14">بئر JAM-N-14 (حقل جمبور الشمالي)</option>
+                                <option value="JAM-S-08">بئر JAM-S-08 (حقل جمبور الجنوبي)</option>
+                                <option value="BABA-102">بئر BABA-102 (حقل قبة بابا)</option>
+                                <option value="BH-N-45">بئر BH-N-45 (حقل باي حسن الشمالي)</option>
+                                <option value="BH-S-22">بئر BH-S-22 (حقل باي حسن الجنوبي)</option>
+                                <option value="DWD-07">بئر DWD-07 (حقل داود)</option>
                             </select>
                         </div>
                     </div>
@@ -840,19 +842,41 @@
                                 <tbody class="divide-y divide-slate-800/60" id="wellsTableBody">
                                     <tr class="hover:bg-slate-800/40 transition-colors">
                                         <td class="py-3.5 px-3 font-bold text-white">JAM-N-14</td>
-                                        <td class="py-3.5 px-3 text-slate-300">الرميلة الشمالي</td>
+                                        <td class="py-3.5 px-3 text-slate-300">جمبور الشمالي</td>
                                         <td class="py-3.5 px-3 text-slate-400">Cameron 5,000 PSI</td>
                                         <td class="py-3.5 px-3 font-mono text-emerald-400 font-bold">3,420 PSI</td>
-                                        <td class="py-3.5 px-3 text-slate-300">14/10/2026</td>
+                                        <td class="py-3.5 px-3 text-slate-300">14/11/2026</td>
                                         <td class="py-3.5 px-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">سليم 100%</span></td>
                                         <td class="py-3.5 px-3 text-center">
                                             <button onclick="changeActiveWell('JAM-N-14')" class="text-gold-400 hover:text-gold-300 font-semibold">فحص الشجرة</button>
                                         </td>
                                     </tr>
                                     <tr class="hover:bg-slate-800/40 transition-colors">
+                                        <td class="py-3.5 px-3 font-bold text-white">JAM-S-08</td>
+                                        <td class="py-3.5 px-3 text-slate-300">جمبور الجنوبي</td>
+                                        <td class="py-3.5 px-3 text-slate-400">FMC 5,000 PSI</td>
+                                        <td class="py-3.5 px-3 font-mono text-emerald-400 font-bold">3,180 PSI</td>
+                                        <td class="py-3.5 px-3 text-slate-300">08/11/2026</td>
+                                        <td class="py-3.5 px-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">سليم 100%</span></td>
+                                        <td class="py-3.5 px-3 text-center">
+                                            <button onclick="changeActiveWell('JAM-S-08')" class="text-gold-400 hover:text-gold-300 font-semibold">فحص الشجرة</button>
+                                        </td>
+                                    </tr>
+                                    <tr class="hover:bg-slate-800/40 transition-colors">
+                                        <td class="py-3.5 px-3 font-bold text-white">BABA-102</td>
+                                        <td class="py-3.5 px-3 text-slate-300">قبة بابا (كركوك)</td>
+                                        <td class="py-3.5 px-3 text-slate-400">Cameron 5,000 PSI</td>
+                                        <td class="py-3.5 px-3 font-mono text-emerald-400 font-bold">2,950 PSI</td>
+                                        <td class="py-3.5 px-3 text-slate-300">12/11/2026</td>
+                                        <td class="py-3.5 px-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">سليم 100%</span></td>
+                                        <td class="py-3.5 px-3 text-center">
+                                            <button onclick="changeActiveWell('BABA-102')" class="text-gold-400 hover:text-gold-300 font-semibold">فحص الشجرة</button>
+                                        </td>
+                                    </tr>
+                                    <tr class="hover:bg-slate-800/40 transition-colors">
                                         <td class="py-3.5 px-3 font-bold text-white">BH-N-45</td>
-                                        <td class="py-3.5 px-3 text-slate-300">الزبير (مشرف)</td>
-                                        <td class="py-3.5 px-3 text-slate-400">FMC 10,000 PSI</td>
+                                        <td class="py-3.5 px-3 text-slate-300">باي حسن الشمالي</td>
+                                        <td class="py-3.5 px-3 text-slate-400">Vetco Gray 5K</td>
                                         <td class="py-3.5 px-3 font-mono text-emerald-400 font-bold">2,890 PSI</td>
                                         <td class="py-3.5 px-3 text-slate-300">01/11/2026</td>
                                         <td class="py-3.5 px-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">سليم 100%</span></td>
@@ -861,17 +885,28 @@
                                         </td>
                                     </tr>
                                     <tr class="hover:bg-slate-800/40 transition-colors">
-                                        <td class="py-3.5 px-3 font-bold text-white">BB-102</td>
-                                        <td class="py-3.5 px-3 text-slate-300">مجنون</td>
-                                        <td class="py-3.5 px-3 text-slate-400">Vetco Gray 5K</td>
-                                        <td class="py-3.5 px-3 font-mono text-amber-400 font-bold">1,940 PSI</td>
-                                        <td class="py-3.5 px-3 text-slate-300">28/09/2026</td>
-                                        <td class="py-3.5 px-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/20 text-amber-400 border border-amber-500/30">مستحق للتشحيم</span></td>
+                                        <td class="py-3.5 px-3 font-bold text-white">BH-S-22</td>
+                                        <td class="py-3.5 px-3 text-slate-300">باي حسن الجنوبي</td>
+                                        <td class="py-3.5 px-3 text-slate-400">FMC 5,000 PSI</td>
+                                        <td class="py-3.5 px-3 font-mono text-emerald-400 font-bold">2,750 PSI</td>
+                                        <td class="py-3.5 px-3 text-slate-300">05/11/2026</td>
+                                        <td class="py-3.5 px-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">سليم 100%</span></td>
                                         <td class="py-3.5 px-3 text-center">
-                                            <button onclick="changeActiveWell('BB-102')" class="text-gold-400 hover:text-gold-300 font-semibold">فحص الشجرة</button>
+                                            <button onclick="changeActiveWell('BH-S-22')" class="text-gold-400 hover:text-gold-300 font-semibold">فحص الشجرة</button>
                                         </td>
                                     </tr>
-                                </tbody>
+                                    <tr class="hover:bg-slate-800/40 transition-colors">
+                                        <td class="py-3.5 px-3 font-bold text-white">DWD-07</td>
+                                        <td class="py-3.5 px-3 text-slate-300">حقل داود</td>
+                                        <td class="py-3.5 px-3 text-slate-400">Cameron 5,000 PSI</td>
+                                        <td class="py-3.5 px-3 font-mono text-emerald-400 font-bold">3,100 PSI</td>
+                                        <td class="py-3.5 px-3 text-slate-300">10/11/2026</td>
+                                        <td class="py-3.5 px-3"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">سليم 100%</span></td>
+                                        <td class="py-3.5 px-3 text-center">
+                                            <button onclick="changeActiveWell('DWD-07')" class="text-gold-400 hover:text-gold-300 font-semibold">فحص الشجرة</button>
+                                        </td>
+                                    </tr>
+</tbody>
                             </table>
                         </div>
                     </div>

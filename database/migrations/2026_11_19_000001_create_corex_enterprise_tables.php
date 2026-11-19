@@ -13,7 +13,7 @@ return new class extends Migration
             ->id();
             ->string('name_en');
             ->string('name_ar');
-            ->string('code')->unique(); // RUM, ZUB, MAJ, WQ1
+            ->string('code')->unique(); // JAM_N (جمبور الشمالي), JAM_S (جمبور الجنوبي), BABA (بابا), BH_N (باي حسن الشمالي), BH_S (باي حسن الجنوبي), DWD (داود)
             ->string('location_coordinates')->nullable();
             ->timestamps();
         });
@@ -22,7 +22,7 @@ return new class extends Migration
         Schema::create('wells', function (Blueprint ) {
             ->id();
             ->foreignId('oilfield_id')->constrained('oilfields')->onDelete('cascade');
-            ->string('well_number')->unique(); // R-542
+            ->string('well_number')->unique(); // JAM-N-14, JAM-S-08, BABA-102, BH-N-45, BH-S-22, DWD-07
             ->string('reservoir')->nullable(); // Mishrif, Zubair
             ->decimal('total_depth_meters', 8, 2)->default(3200);
             ->string('tree_manufacturer')->default('Cameron');
