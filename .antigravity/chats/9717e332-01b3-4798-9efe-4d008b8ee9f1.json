@@ -280,6 +280,18 @@
       "created_at": "2026-11-19T23:02:10.540Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "36635085-67c1-470a-833f-06071ad94917",
+      "role": "user",
+      "content": "ماذا تحتاج حتى يتم تصميم تطبيق مشابه 100‎%‎ وظيفياً مع الرابط التي ارسلته لك",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-19T23:10:53.456Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
