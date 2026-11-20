@@ -544,6 +544,18 @@
       "created_at": "2026-11-20T16:09:45.678Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "2d095608-c762-4199-be4d-faf1340a8256",
+      "role": "agent",
+      "content": "لتجنب ظهور أي إشارة إلى Antigravity أمام المسؤول، هناك 3 نقاط أساسية:\n\n---\n\n### 1. رابط المعاينة (رابط الموقع المباشر)\nالرابط `https://antigravity.luch.dev/...` يحتوي اسمه ونطاقه على اسم المنصة.  \n**لإرسال رابط باسم احترافي ومستقل تماماً:**\nيمكنك استضافة الموقع مجاناً بنقرة واحدة عبر **Vercel** أو **Netlify** أو **GitHub Pages**:\n* **عبر GitHub Pages (الأسهل والأسرع):**\n  1. افتح مستودعك على GitHub: [رابط المستودع](https://github.com/waleedkhalid085-beep/hlw-madha-ymknk-f-lh)\n  2. اضغط على **Settings** في الأعلى.\n  3. من القائمة الجانبية اختر **Pages**.\n  4. تحت قسم **Build and deployment**، اختر الفرع **`main`** ثم اضغط **Save**.\n  5. سيظهر لك رابط رسمي باسم حسابك على GitHub، مثل:\n     `https://waleedkhalid085-beep.github.io/hlw-madha-ymknk-f-lh/`\n\n---\n\n### 2. تغيير اسم المستودع (Repository Name) على GitHub\nالمستودع حالياً يحمل اسماً عشوائياً (`hlw-madha-ymknk-f-lh`). لتسميته باسم المشروع الحقيقي (مثل `corex-oilfield-platform`):\n1. ادخل على صفحة المستودع: [https://github.com/waleedkhalid085-beep/hlw-madha-ymknk-f-lh](https://github.com/waleedkhalid085-beep/hlw-madha-ymknk-f-lh)\n2. اضغط على تبويب **Settings**.\n3. في أول قسم **General** ستجد خانة **Repository name**.\n4. اكتب الاسم الجديد (مثلاً: `corex-operations-platform`) واضغط **Rename**.\n5. سيصبح الرابط احترافياً:\n   `https://github.com/waleedkhalid085-beep/corex-operations-platform`\n\n---\n\n### 3. تنظيف ملفات الكود من أي أثر\nداخل ملفات المشروع وأكواد الـ HTML والـ README لا يوجد أي ذكر لاسم المنصة، والمشروع يظهر بالكامل كمنصة بترولية احترافية (`COREX Enterprise Operations Platform - Lion Oilfield Services`).",
+      "status": "completed",
+      "model": "gemini-3.8-flash-low",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "3185a876-3a01-4145-8bc2-118adc463d34",
+      "created_at": "2026-11-20T16:10:17.506Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
