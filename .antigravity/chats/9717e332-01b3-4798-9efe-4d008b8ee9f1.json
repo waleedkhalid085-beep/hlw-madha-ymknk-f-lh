@@ -484,6 +484,30 @@
       "created_at": "2026-11-19T23:29:58.266Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "ed1d7da6-c8b6-4dd2-8a6f-4268bbf9995f",
+      "role": "user",
+      "content": "كيف اغير الرابط من كيتهاف",
+      "status": "pending",
+      "model": "gemini-3.8-flash-low",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-20T16:08:08.602Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "8d461c44-427b-4fae-a803-effda3990533",
+      "role": "agent",
+      "content": "لتغيير مستودع GitHub المرتبط بالمشروع، يعتمد ذلك على المكان الذي تريد تغييره منه:\n\n---\n\n### 1. من خلال إعدادات التطبيق / المنصة (UI)\nالمشروع مرتبط حالياً تلقائياً بالمستودع:\n`waleedkhalid085-beep/hlw-madha-ymknk-f-lh`\n\n* في واجهة المنصة التي تستخدمها، اذهب إلى **إعدادات المشروع (Project Settings)** أو **تكامل GitHub (GitHub Integration)**.\n* ابحث عن خيار **ربط مستودع مختلف (Connect/Change Repository)** أو قم بفصل المستودع الحالي وربط المستودع الجديد الذي تريده.\n\n---\n\n### 2. إذا كنت تقصد رابط الـ Remote في Git محلياً (عبر سطر الأوامر)\nإذا أردت تغيير المستودع البعيد (`remote origin`) داخل بيئة العمل، يمكنك تشغيل الأمر التالي في سطر الأوامر (Terminal):\n\n```bash\ngit remote set-url origin https://github.com/USERNAME/NEW-REPOSITORY.git\n```\n*(استبدل الرابط برابط مستودعك الجديد)*\n\nللتحقق من الرابط الجديد:\n```bash\ngit remote -v\n```\n\n---\n\n> **ملاحظة:** إذا كنت تقصد رابطاً داخل كود المشروع نفسه (مثل رابط زر أو نص يوجه إلى GitHub)، يُرجى توضيح الملف أو المكان وسأقوم بتعديله لك فوراً!",
+      "status": "completed",
+      "model": "gemini-3.8-flash-low",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "ed1d7da6-c8b6-4dd2-8a6f-4268bbf9995f",
+      "created_at": "2026-11-20T16:08:18.251Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
