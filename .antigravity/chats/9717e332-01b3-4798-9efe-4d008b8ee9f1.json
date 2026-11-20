@@ -508,6 +508,30 @@
       "created_at": "2026-11-20T16:08:18.251Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "f4069ab8-a645-4b6c-9f10-75c48ae078ac",
+      "role": "user",
+      "content": "نعم اريد افتح المشروع من github وارسله للمسوول",
+      "status": "pending",
+      "model": "gemini-3.8-flash-low",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-20T16:08:49.855Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "8f8d53a0-475d-4f35-abee-ba6aa9b05f19",
+      "role": "agent",
+      "content": "إليك الروابط المباشرة التي يمكنك مشاركتها مع المسؤول:\n\n---\n\n### 1. رابط مستودع الكود على GitHub (لرؤية الأكواد):\n🔗 **https://github.com/waleedkhalid085-beep/hlw-madha-ymknk-f-lh**\n\n> يتم حفظ وتحديث كافة التعديلات على هذا الرابط تلقائياً.\n\n---\n\n### 2. رابط معاينة الموقع المباشر (لرؤية شكل الموقع وتجربته):\n🔗 **https://antigravity.luch.dev/site/3a026efd-8c9f-494f-891b-99415ea24a7f/2d83b86c06d4908135fb010f/**\n\n---\n\nيمكنك نسخ هذه الروابط وإرسالها للمسؤول مباشرة.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-low",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "f4069ab8-a645-4b6c-9f10-75c48ae078ac",
+      "created_at": "2026-11-20T16:08:58.124Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
