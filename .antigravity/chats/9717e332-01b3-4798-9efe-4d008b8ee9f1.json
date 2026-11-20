@@ -568,6 +568,18 @@
       "created_at": "2026-11-20T16:35:24.059Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "4fb75452-bbde-4a30-9a3e-506eaa881adb",
+      "role": "agent",
+      "content": "رابط المعاينة المباشر:\n🔗 `https://antigravity.luch.dev/site/3a026efd-8c9f-494f-891b-99415ea24a7f/2d83b86c06d4908135fb010f/`\n\n---\n\n### مدة صلاحية الرابط:\n* **لا يوجد تاريخ انتهاء محدد بعدد أيام معين (ليس له مدة محددة مثل 7 أو 30 يوماً).**\n* يظل الرابط يعمل باستمرار **طالما أن المشروع والمحادثة موجودان وقائمان في المنصة**.\n* أي تعديل نقوم به يتم تحديثه تلقائياً على الرابط خلال ثوانٍ.\n\n---\n\n### هل يُعتمد عليه كرابط دائم ورسمي؟\n* بما أنه **رابط معاينة وتطوير مؤقت (Preview Link)** مرتبط بجلسة العمل الحالية، فقد يتوقف إذا تم حذف المشروع أو إغلاق الجلسة من المنصة.\n* الأكواد بالكامل محفوظة بشكل **دائم ومدى الحياة** في مستودعك على [GitHub](https://github.com/waleedkhalid085-beep/hlw-madha-ymknk-f-lh).\n\n---\n\n### للحصول على رابط دائم 100% مدى الحياة (مجاناً):\nإذا أردت رابطاً رسمياً لا ينتهي إطلاقاً ولا يتبع للمنصة:\n1. ادخل إلى إعدادات المستودع في [GitHub](https://github.com/waleedkhalid085-beep/hlw-madha-ymknk-f-lh).\n2. اختر من القائمة الجانبية **Pages**.\n3. في خيار الفرع (Branch) اختر **`main`** ثم اضغط **Save**.\n4. ستحصل على رابط دائم مدى الحياة مجاناً:\n   `https://waleedkhalid085-beep.github.io/hlw-madha-ymknk-f-lh/`",
+      "status": "completed",
+      "model": "gemini-3.8-flash-low",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "da2715d1-1ba4-4da2-97cb-44a5875616dd",
+      "created_at": "2026-11-20T16:36:21.388Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
