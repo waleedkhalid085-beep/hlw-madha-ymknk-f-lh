@@ -556,6 +556,18 @@
       "created_at": "2026-11-20T16:10:17.506Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "da2715d1-1ba4-4da2-97cb-44a5875616dd",
+      "role": "user",
+      "content": "لمدة كم يوم يعمل الرابط",
+      "status": "pending",
+      "model": "gemini-3.8-flash-low",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-20T16:35:24.059Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
